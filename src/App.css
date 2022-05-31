@@ -1,0 +1,61 @@
+.row{
+  margin-right: 0!important; 
+  margin-left: 0!important;
+}
+.user_profile_container{
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(127,83,172, 0.191);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 0px rgba(255,255,255,0.4) solid;
+}
+.github_stats{
+  width: 30%!important;;
+}
+
+.github_stats_data{
+font-size: 1.6rem;
+font-weight: bolder;
+letter-spacing:1px;
+}
+
+.icons{
+  font-size:3.5rem;
+ color:#00FFDD;
+}
+@media only screen and (max-width : 768px){
+.image_profile{
+  width: 100%!important;
+  margin-bottom: 20px;
+}
+.user_section{
+  flex-wrap: wrap;
+}
+.github_stats{
+  width: 100%!important;
+}
+}
+
+.repo_cards{
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(127,83,172, 0.191)!important;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 0px rgba(255,255,255,0.4) solid;
+}
+.repo_cards:hover{
+  background-color: rgba(128, 86, 169, 0.191)!important;
+}
+
+.btn-repo:hover a{
+ color:white !important;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
