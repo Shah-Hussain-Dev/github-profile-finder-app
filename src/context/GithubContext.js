@@ -3,8 +3,8 @@ import githubReducer from "./GithubReducer";
 
 
 const GithubContext = createContext()
-const GITHUB_URL = process.env.REACT_APP_GITHUB_URL
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN
+const GITHUB_URL = "https://api.github.com"
+const GITHUB_TOKEN = "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"
 
 export const GithubProvider = ({children}) => { // usereducer
     const initialState = {
