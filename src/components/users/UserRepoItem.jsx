@@ -11,8 +11,8 @@ const UserRepoItem = ({ repo }) => {
           <Card.Title>
             <h3 className="text-primary">
               <FaLink />
-              <a href={html_url} rel="noreferrer" alt="profile">
-                {" "}
+              <a target="_blank" href={html_url} rel="noreferrer" alt="profile" >
+                
                 {name}
               </a>
             </h3>
@@ -25,7 +25,7 @@ const UserRepoItem = ({ repo }) => {
             </span>
           </Card.Text>
           <button className="btn  btn-sm text-white btn-outline-primary btn-repo">
-            <a href={html_url} rel="noreferrer" alt="profile_url">
+            <a target="_blank" href={html_url} rel="noreferrer" alt="profile_url">
               View repo <BsFillBookmarkHeartFill />
             </a>{" "}
           </button>
